@@ -1,1 +1,50 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 100%;
+    padding: 15px;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .btn-block {
+    display: block;
+    width: 100%;
+  }
+  
+  .mt-4 {
+    margin-top: 1.5rem;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem;
+  }
+
+  .mat-mdc-form-field-subscript-wrapper{
+    margin: 0 !important;
+    padding: 0;
+    display: none;
+  }
+
+
+  
+  

@@ -1,0 +1,13 @@
+<div *ngIf="event" class="container mt-4">
+    <div class="card">
+      <div class="card-body">
+        
+        <h1>{{ event.title }}</h1>
+        <p><b>Date:</b> {{ event.date }}</p>
+        <p><b>Location:</b> {{ event.location }}</p>
+        <p>{{ event.description }}</p>
+        <a [routerLink]="['/']" class="btn btn-primary btn-block">Back to List</a>
+      </div>
+    </div>
+  </div>
+  
